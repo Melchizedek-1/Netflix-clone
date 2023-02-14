@@ -1,8 +1,14 @@
 import React from 'react'
+import { Route, Routes } from 'react-router-dom'
+import HomeScreen from './Screens/HomeScreen'
+import NotFound from './Screens/NotFound'
 
 const App = () => {
   return (
-    <div className='text-subMain'>App</div>
+    <Routes>
+      <Route path='/' element={<HomeScreen />} />
+      <Route path='*' element={<NotFound />} />
+    </Routes>
   )
 }
 
