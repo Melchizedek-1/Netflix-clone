@@ -84,3 +84,41 @@ export const CategoriesData = [
         title: 'Sci-fi',
     },
 ];
+
+export const UsersData = [
+    {
+        fullName: 'Tom Cruise',
+        image: '1.jpg',
+        email: 'tom@wesonga.com',
+        rate: 4.5,
+        message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+    },
+    {
+        fullName: 'Floki Haknk',
+        image: '3.jpg',
+        email: 'tom@wesonga.com',
+        rate: 4.5,
+        message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+    },
+    {
+        fullName: 'Tom hsy',
+        image: '4.jpg',
+        email: 'tom@wesonga.com',
+        rate: 4.5,
+        message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+    },
+    {
+        fullName: 'Rtgsg Cruise',
+        image: '2.jpg',
+        email: 'tom@wesonga.com',
+        rate: 4.5,
+        message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+    },
+    {
+        fullName: 'Gffgs suus',
+        image: '1.jpg',
+        email: 'tom@wesonga.com',
+        rate: 4.5,
+        message: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys',
+    },
+]
