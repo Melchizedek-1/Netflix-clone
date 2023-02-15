@@ -59,4 +59,28 @@ export const Movies = [
         rate: 5,
         reviews: 100,
     },
-]
+];
+
+
+export const CategoriesData = [
+    {
+        _id: '1',
+        title: 'Mystery',
+    },
+    {
+        _id: '2',
+        title: 'Historical',
+    },
+    {
+        _id: '3',
+        title: 'Science',
+    },
+    {
+        _id: '4',
+        title: 'Western',
+    },
+    {
+        _id: '5',
+        title: 'Sci-fi',
+    },
+];
