@@ -3,6 +3,8 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from './Screens/AboutUs'
 import ContactUs from './Screens/ContactUs'
+import Dashboard from './Screens/Dashboard/Admin/Dashboard'
+import MovieList from './Screens/Dashboard/Admin/MovieList'
 import FavoriteMovies from './Screens/Dashboard/FavoriteMovies'
 import Password from './Screens/Dashboard/Password'
 import Profile from './Screens/Dashboard/Profile'
@@ -30,6 +32,8 @@ const App = () => {
       <Route path='/profile' element={<Profile />} />
       <Route path='/password' element={<Password />} />
       <Route path='/favorites' element={<FavoriteMovies />} />
+      <Route path='/movieslist' element={<MovieList />} />
+      <Route path='/dashboard' element={<Dashboard />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   )
