@@ -26,6 +26,7 @@ const Dashboard = () => {
             total: 134,
         },
     ];
+    
   return (
     <SideBar>
         <h2 className='text-xl font-bold'>
