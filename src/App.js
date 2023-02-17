@@ -1,7 +1,9 @@
+import Aos from 'aos'
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from './Screens/AboutUs'
 import ContactUs from './Screens/ContactUs'
+import Profile from './Screens/Dashboard/Profile'
 import HomeScreen from './Screens/HomeScreen'
 import Login from './Screens/Login'
 import MoviesPage from './Screens/MoviesPage'
@@ -11,6 +13,8 @@ import SingleMovie from './Screens/SingleMovie'
 import WatchPage from './Screens/WatchPage'
 
 const App = () => {
+  Aos.init();
+  
   return (
     <Routes>
       <Route path='/' element={<HomeScreen />} />
@@ -21,6 +25,7 @@ const App = () => {
       <Route path='/movies' element={<MoviesPage />} />
       <Route path='/movie/:id' element={<SingleMovie />} />
       <Route path='/watch/:id' element={<WatchPage />} />
+      <Route path='/profile' element={<Profile />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   )
