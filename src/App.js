@@ -6,6 +6,7 @@ import ContactUs from './Screens/ContactUs'
 import Categories from './Screens/Dashboard/Admin/Categories'
 import Dashboard from './Screens/Dashboard/Admin/Dashboard'
 import MovieList from './Screens/Dashboard/Admin/MovieList'
+import Users from './Screens/Dashboard/Admin/Users'
 import FavoriteMovies from './Screens/Dashboard/FavoriteMovies'
 import Password from './Screens/Dashboard/Password'
 import Profile from './Screens/Dashboard/Profile'
@@ -36,6 +37,7 @@ const App = () => {
       <Route path='/movieslist' element={<MovieList />} />
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/categories' element={<Categories />} />
+      <Route path='/users' element={<Users />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   )
