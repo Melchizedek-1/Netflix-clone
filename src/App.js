@@ -3,6 +3,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import AboutUs from './Screens/AboutUs'
 import ContactUs from './Screens/ContactUs'
+import AddMovie from './Screens/Dashboard/Admin/AddMovie'
 import Categories from './Screens/Dashboard/Admin/Categories'
 import Dashboard from './Screens/Dashboard/Admin/Dashboard'
 import MovieList from './Screens/Dashboard/Admin/MovieList'
@@ -38,6 +39,7 @@ const App = () => {
       <Route path='/dashboard' element={<Dashboard />} />
       <Route path='/categories' element={<Categories />} />
       <Route path='/users' element={<Users />} />
+      <Route path='/addmovie' element={<AddMovie />} />
       <Route path='*' element={<NotFound />} />
     </Routes>
   )
